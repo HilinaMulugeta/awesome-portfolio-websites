@@ -11,7 +11,7 @@ html[data-theme="light"] {
   --bg-icon: #fff;
    --bg1-color: #fff;
   --col-icon-dribbble: #ea4c89;
-  --col-icon-linkedin: #0e76a8;
+  --col-icon-linkedin: #FFB4C2;
   --col-icon-kaggle: #41aff3;  
   --col-icon-instagram: rgb(201, 94, 174);
   --col-icon-mail:rgb(209, 82, 82);
@@ -30,7 +30,7 @@ html[data-theme="dark"] {
   --col-box-shadow-hover:inset rgba(255, 255, 255, 1) 2px 2px 4px, 
  inset rgba(255, 255, 255, 0.5) -2px -2px 4px;
   --col-icon-dribbble: #ea4c89;
-  --col-icon-linkedin: #0e76a8;
+  --col-icon-linkedin: #f697a8;
   --col-icon-kaggle: #41aff3;
   --col-icon-instagram: rgb(201, 94, 174);
   --col-icon-mail:rgb(209, 82, 82);
@@ -51,7 +51,7 @@ body{
 }
 
 .section {
-  background-color: rgb(63, 25, 170);
+  background-color: #FFB4C2;
   justify-content: center;
   align-items: center;
 }

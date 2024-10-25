@@ -40,7 +40,7 @@ html[light-mode="dark"] {
   --cite-col-txt: #fff;
   --cite-close: rgba(0, 0, 0, 0.192);
   --cite-hover: #fff;
-  --hover-link: rgb(192, 76, 238);
+  --hover-link: #FFB4C2;
   --shadow-col1: rgb(29, 28, 28);
   --shadow-col2: rgba(34, 34, 34, 0.459);
 }
@@ -54,7 +54,7 @@ html {
 /* color of reference page heading*/
 
 .reference_work {
-  color: #4e00bb;
+  color: #FFB4C2;
 }
 
 /*For Changing background color of body according to theme*/
@@ -283,7 +283,7 @@ body {
   border-radius: 10% 50%;
   border: solid;
   border-width: 20px;
-  border-color: rgb(181, 6, 250);
+  border-color: #FFB4C2;
 }
 .rImg1 {
   margin-top: 8%;
@@ -293,13 +293,13 @@ body {
   border-radius: 50% 10%;
   border: solid;
   border-width: 20px;
-  border-color: rgb(181, 6, 250);
+  border-color: #FFB4C2;
 }
 
 .imgRes {
   width: 14em;
   height: 14em;
-  border: 10px solid rgb(181,6,250);
+  border: 10px solid #FFB4C2;
   border-radius: 10% 50%;
 }
 
