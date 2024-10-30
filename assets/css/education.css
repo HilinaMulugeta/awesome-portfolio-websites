@@ -14,7 +14,7 @@ html[light-mode="light"] {
   --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   --border: 1px solid #ecf0f3;
   --meta-col: #444;
-  --head-col: black;
+  --head-col: rgba(0, 0, 0, 0.731);
   --tint-col: #ecf0f3;
 }
 
@@ -108,18 +108,21 @@ h4 {
 }
 .card {
   background-color: var(--bg1-color);
+  /* align-items: center; */
 }
 .s2 .card img {
-  height: 90%;
-  width: 90%;
+  height: 50%;
+  width: 50%;
 }
 .s2 .card,
 .s2 img {
-  border-radius: 3rem;
+  border-radius: 1rem;
 }
 
 .card .row {
   color: black;
+  align-items: center;
+ 
 }
 .s2 h4,
 p {
@@ -140,6 +143,7 @@ p {
   color: var(--head-col);
 }
 .content {
+  align-items: center;
   position: relative;
   width: 100%;
   padding: 10px;
@@ -188,7 +192,7 @@ p {
   top: 80%;
 }
 #mooc .card {
-  border-radius: 5px;
+  border-radius: 15px;
   background: var(--tint-col);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
   transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
@@ -197,6 +201,7 @@ p {
   cursor: pointer;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 #mooc .card:hover {
   transform: scale(1.05);
@@ -761,7 +766,8 @@ blockquote {
   }
  @media(max-width:378px){
   .container{
-    font-size: 80%;  
+    font-size: 80%;
+    align-items: center;  
   }
  }
   @media(max-width:346px){

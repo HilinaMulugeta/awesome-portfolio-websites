@@ -372,13 +372,20 @@ ul {
   padding-inline-start: 0px;
 }
 
-.social-icon svg {
+/* .social-icon svg {
   margin-top: 30px;
-}
+} */
 
 .menu-content {
-  margin-right: 10px;
-  margin-top: 1rem;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  /* margin-right: 2px;
+  margin-top: 2px;
+  padding: 0.5rem; */
+  margin-bottom: opx;
+  padding-bottom: 5px;
+  color:#fcb5c2;
 }
 
 .social-icon svg:hover {
@@ -464,11 +471,11 @@ ul {
 
 @media (min-width: 535px) and (max-width: 540px) {
   .menu-content {
-    margin-top: -4.5rem;
+    margin-top: -2.5rem;
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 6rem;
+    padding-bottom: 1rem;
     font-size: 2rem;
   }
 }
@@ -478,7 +485,7 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
     margin-bottom: 0px;
     font-size: 2rem;
   }
@@ -490,12 +497,12 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
     margin-bottom: 0px;
     font-size: 2rem;
   }
   .skill-card {
-    width: 450px;
+    width: 350px;
     border: 0;
     border-radius: 10px;
   }
@@ -507,8 +514,8 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 7rem;
-    font-size: 2rem;
+    padding-bottom: 4rem;
+    font-size: 1.7rem;
   }
 }
 

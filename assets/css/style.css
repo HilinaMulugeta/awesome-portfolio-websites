@@ -744,7 +744,7 @@ Rotate Transition in foote Soical Icon
 */
 
 .rounded-social-buttons .social-button.twitter {
-  background: #2b2a2A;
+  background: #11a9ea;
   box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
 }
 
@@ -755,14 +755,14 @@ Rotate Transition in foote Soical Icon
 }
 
 .rounded-social-buttons .social-button.linkedin {
-  background: #2b2a2A;
+  background: #c8e0f6;
   box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
 }
 
 .rounded-social-buttons .social-button.linkedin:hover,
 .rounded-social-buttons .social-button.linkedin:focus {
   color: #000;
-  background: #2b2a2A;
+  background: #ececec;
 }
 
 .rounded-social-buttons .social-button.instagram {
@@ -778,7 +778,7 @@ Rotate Transition in foote Soical Icon
 
 .rounded-social-buttons .social-button.github {
   fill: #ffff;
-  background: #2b2a2A;
+  background: #ff9a9a;
   box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
 }
 
@@ -796,18 +796,19 @@ Contact Form In Footer
 .display {
   height: auto;
   width: auto;
-  text-align: left;
+  /* text-align: left; */
   color: #fff;
   display: inline;
   font-size: 25px;
   font-weight: 200;
-  line-height: 22px;
+  line-height: 18px;
   border-bottom: 3px solid #FFB4C2;
 }
 
 .form-header {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
 }
 
 form {
@@ -930,6 +931,7 @@ form {
   }
   .footer {
       padding-top: 10px;
+      margin-top: 90px;
   }
   #navbar-content {
       margin-top: -200px;

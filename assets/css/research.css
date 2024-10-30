@@ -1,10 +1,10 @@
-/*Import font*/
+/* Import font */
 
-@import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap"); */
 
 /*Declaring CSS variables for Light mode*/
 
-html[light-mode="light"] {
+/* html[light-mode="light"] {
   --bg1-color: #ffffff;
   --bg-head: #ffffff;
   --bg-col: #fff;
@@ -18,11 +18,11 @@ html[light-mode="light"] {
   --hover-link: black;
   --shadow-col1: #a3b1c6;
   --shadow-col2: #ffffff;
-}
+} */
 
 /*Declaring CSS variables for Dark Mode*/
 
-html[light-mode="dark"] {
+/* html[light-mode="dark"] {
   --bg1-color: #272727;
   --bg-col: rgba(0, 0, 0, 0);
   --text-gra: ;
@@ -48,25 +48,25 @@ html {
 }
 .research_head {
   font-weight: bold;
-}
+} */
 
 /* color of research page heading*/
 
-.research_work {
+/* .research_work {
   color: #f4abb8;
-}
+} */
 
 /*For Changing background color of body according to theme*/
-body {
+/* body {
   background: var(--bg-col) !important;
 }
 
 .p-upper {
   color: var(--p-up);
-}
+} */
 
 /*Research page*/
-.txt-bottom {
+/* .txt-bottom {
   height: auto;
 }
 
@@ -200,10 +200,10 @@ body {
 
 .resCite {
   display: none;
-}
+} */
 
 /*Profile pic responsiveness*/
-@media only screen and (max-width: 711px) {
+/* @media only screen and (max-width: 711px) {
   #researchDetailsTable tr {
     background-color: var(--bg1-color);
     margin: 0px 0px 4em 0px;
@@ -215,11 +215,11 @@ body {
   .resCite {
     display: block;
   }
-}
+} */
 
 /*Responsive*/
 
-@media only screen and (max-width: 441px) {
+/* @media only screen and (max-width: 441px) {
   .researchTitleName a {
     font-size: 14px;
   }
@@ -245,11 +245,11 @@ body {
   .researchTitleName {
     width: 300px;
   }
-}
+} */
 
 /* For Samsung Galaxy Fold*/
 
-@media only screen and (max-width: 300px) and (max-height: 660px) {
+/* @media only screen and (max-width: 300px) and (max-height: 660px) {
   .researchTitleName {
     width: 230px;
   }
@@ -283,10 +283,10 @@ body {
     margin-top: 85px;
     margin-bottom: 100px;
   }
-}
+} */
 
 /*IMAGES SECTION OF LIST*/
-
+/* 
 .rImg {
   margin-left: 0;
   border-radius: 10px;
@@ -392,10 +392,10 @@ body {
     height: 260px;
     border-radius: 10px;
   }
-}
+} */
 
 /* Button for citing  */
-.d-flex{
+/* .d-flex{
   display: flex;
   justify-content: center;
 }
@@ -434,10 +434,10 @@ body {
     font-size: 0.9rem;
     margin-top: 5em;
   }
-}
+} */
 
 /*Popup for cite*/
-
+/* 
 .overlay {
   position: fixed;
   top: 0;
@@ -483,11 +483,11 @@ body {
   padding: 8px;
   position: sticky;
   font-size: 1em;
-}
+} */
 
 /*Close button for popup*/
 
-.popup .close {
+/* .popup .close {
   position: absolute;
   right: 30px;
   top: 5px;
@@ -505,10 +505,10 @@ body {
   max-height: 70%;
   overflow: auto;
   font-size: 1em;
-}
+} */
 
 /*Responsive*/
-
+/* 
 @media (min-width: 60rem) {
   .cite-div {
     margin-top: -2em;
@@ -535,10 +535,10 @@ body {
   .imgRes {
     width: 100%;
   }
-}
+} */
 
 /*Table for research works*/
-
+/* 
 .left-cell {
   font-size: 0.8em;
   text-align: right;
@@ -553,7 +553,7 @@ body {
 
 /*social icons footer*/
 
-.social-icons-footer {
+/* .social-icons-footer {
   font-size: 20px;
   align-items: center;
   justify-content: center;
@@ -583,10 +583,10 @@ body {
 
 .social-icon-footer:hover i {
   color: #000000;
-}
+} */ */
 
 /*Responsive*/
-
+/* 
 @media (min-width: 60rem) {
   .social-icons-footer {
     width: 280px;
@@ -598,10 +598,10 @@ body {
   .social-icon-footer i {
     font-size: 20px;
   }
-}
+} */
 
 /*Animations*/
-
+/* 
 .social-icon-footer:hover {
   transform: translateY(-4px);
   box-shadow: 0px 4px 12px rgb(100, 248, 233);
@@ -613,7 +613,7 @@ body {
 
 a:hover {
   color: transparent;
-}
+} */
 
 /*
 ---------------------------
@@ -621,7 +621,7 @@ a:hover {
 ---------------------------
 */
 
-@keyframes plantone {
+/* @keyframes plantone {
   0%,
   to {
     transform: scaleY(1) rotate(0deg);
@@ -753,9 +753,9 @@ a:hover {
   to {
     transform: translateY(0);
   }
-}
+} */
 
-#verapc.svgmate .plant {
+/* #verapc.svgmate .plant {
   animation-name: plantone;
   transform-origin: 1907.25px 884.25px;
   transition: all 0.5s;
@@ -803,4 +803,4 @@ a:hover {
   .researchTitleName {
     width: 60%;
   }
-}
+} */
