@@ -1,4 +1,3 @@
-
 "use strict";
 // Sweet Alert CDN through JS
 let script = document.createElement("script");
@@ -68,6 +67,13 @@ let footer = $(`
                 <h6 class="display">Get in Touch</h6>
               </div>
               
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function() {
+        emailjs.init("GG1-UpiLLGAqrFB-R");
+    })();
+</script>
+
 <script type="text/javascript">
     function sendEmail(event) {
             event.preventDefault(); 
@@ -78,19 +84,13 @@ let footer = $(`
 
             console.log('Sending email with:', { name, email, message });
 
-            const templateParams = {
-                name: name,
-                email: email,
-                message: message
-            };
-
-            emailjs.sendForm('service_3a4uo87', 'template_h1ceynf',#form1)
+            emailjs.sendForm('service_3a4uo87', 'template_h1ceynf', event.target)
                 .then(function(response) {
                     console.log('Email sent successfully!', response.status, response.text);
-                    alert('Message sent successfully!');
+                    swal("Success!", "Message sent successfully!", "success");
                 }, function(error) {
                     console.error('Failed to send email. Error:', error);
-                    alert('Failed to send message. Please try again later.');
+                    swal("Error!", "Failed to send message. Please try again later.", "error");
                 });
         }</script>
     

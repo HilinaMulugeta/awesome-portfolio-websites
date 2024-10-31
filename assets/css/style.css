@@ -1096,3 +1096,48 @@ outline: none;
     transform: scale(0) rotateZ(-90deg);
   }
 }
+
+@media screen and (max-width: 768px) {
+    /* Navbar adjustments */
+    .navbar-brand {
+        font-size: 1.5rem;
+        padding-left: 15px;
+    }
+    
+    /* Content adjustments */
+    .container {
+        padding: 0 15px;
+    }
+    
+    /* Form adjustments */
+    .form-style-6 {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    /* Footer adjustments */
+    .footer {
+        padding: 15px;
+    }
+    
+    /* Animation container */
+    dotlottie-player {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Additional small screen adjustments */
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    
+    /* Adjust button sizes */
+    #btnScrollToTop {
+        right: 10px;
+        bottom: 10px;
+    }
+}
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
