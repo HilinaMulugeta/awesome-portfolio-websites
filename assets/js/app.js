@@ -60,9 +60,7 @@ let footer = $(`
     <dotlottie-player src="https://lottie.host/5acd002c-8397-4d30-bd30-c166c991ebcc/NbpLKVZb7w.json" background="transparent" speed="1" style="width: 350px; height: 350px;" loop autoplay></dotlottie-player>
           </div>
 
-<script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
+
 
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0 form-comtainer">
           <div class="form-style-6">
@@ -71,17 +69,14 @@ let footer = $(`
               </div>
               
 <script type="text/javascript">
-   (function(){
-      emailjs.init({
-        publicKey: "GG1-UpiLLGAqrFB-R",
-      });
-   })();
     function sendEmail(event) {
-            event.preventDefault(); // Prevent the default form submission
+            event.preventDefault(); 
 
             const name = document.getElementById('name').value;
             const email = document.getElementById('email').value;
             const message = document.getElementById('textArea').value;
+
+            console.log('Sending email with:', { name, email, message });
 
             const templateParams = {
                 name: name,
@@ -89,7 +84,7 @@ let footer = $(`
                 message: message
             };
 
-            emailjs.send('service_3a4uo87', 'template_h1ceynf', templateParams)
+            emailjs.sendForm('service_3a4uo87', 'template_h1ceynf',#form1)
                 .then(function(response) {
                     console.log('Email sent successfully!', response.status, response.text);
                     alert('Message sent successfully!');
@@ -99,7 +94,7 @@ let footer = $(`
                 });
         }</script>
     
-</script>
+
                 <form name="form1" onsubmit="sendEmail(event)" >
                   <input id="name" type="text" name="name" placeholder="Your Name" required/>
                   <input id="email" type="email" name="email" placeholder="Email Address" required/>                  
@@ -203,7 +198,7 @@ $(function () {
   bodyElement.prepend(header);
   bodyElement.append(footer);
   bodyElement.append(upArrow);
-  $("#btnScrollToTop").css("visibility", "hidden");
+  $("#btnScrollToTop")
 
   //toggler hamburger functions
   const menuBtn = document.querySelector(".navbar-toggler");
